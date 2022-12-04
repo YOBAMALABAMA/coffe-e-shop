@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="icon" href="img\coffeeshop.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+           <nav class="topnav">
+
+            <div class="logo-title">
+                <div class="logo"><img src="img\coffeeshop.png" height="45" width="45"></div>
+                <h3>Coffe-e-Café</h3>
+            </div>
+            <div class="main-nav">
+            <div class="nav-links">
+                <a href="index.html"> Home</a>
+                <div class="dropdown">
+                    <span>Shop</span>
+                    <ul type='none' class="shopping-options">
+                        <a href="e-store.html">e-Store</a>
+                        <a href="Delivery.html">Delivery</a>
+                        <a href="Takeaway.html">Takeaway</a>
+                    </ul>    
+                </div>  
+                <a href="About_us.html"> About Us</a>
+            </div>
+
+            <div class="user-settings" style="color: black;">
+                    <a href="profile.html">Profile</a>
+                    <a href="orders.html">Orders</a>
+                    <a class="active" href="feedbackform.html"> Feedback</a>
+            </div>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+
+            </div>
+            </div>
+        </nav>
+        </header>
+
+        
+        
+    <main>
+      
+        <section class="glass">
+           <form align='center'>
+               <div class="form">  
+             <!-- name -->
+             <fieldset><legend align='center'>Feedback Form</legend>
+                <br>
+             <label for="fname" id="fname" class="fname"><b>First Name:</b></label>
+             <input type="text" id="fname" placeholder="eg: Joe" maxlength="20" required>
+             
+             <label for="lname" id="lname" class="lname"><b>Last Name:</b></label>
+             <input type="text" id="lname" placeholder="eg: Mama" maxlength="20" required>
+             <!-- email -->
+             <br><br> 
+             
+             <label for="email" id="email" class="email"><b>E-mail id:</b></label>
+             <input type="email" id="email" placeholder="eg: joemama@gmail.com" required>
+             <br>
+             <br>
+             <!-- sex -->
+             &nbsp;&nbsp;&nbsp;<b class="gender">Gender:</b>
+ 
+             <label for='gender' class="radiogaga" id="male">Male</label>
+             <input type="radio" value="male" id="radio" name="radio" class='radiogaga'>
+ 
+             <label for='gender' class="radiogaga" id="female">Female</label>
+             <input type="radio" value="female" id="radio" name="radio" class='radiogaga'>
+ 
+             <label for='gender' class="radiogaga" id="others">Others</label>
+             <input type="radio" value="others" name="radio" id="radio" class='radiogaga'>  
+ 
+             <br>
+             <br>
+             <!-- age -->
+             <label for='age'id='age' class="age"><b>Date of Birth:</b></label>
+             <input type="date" id="age" required>
+              
+             <!-- country -->
+ 
+             <label for="country" id="country" class="country"><b>Your Location:</b></label>
+             <input type="country" id="country" placeholder="Country" required>
+             <br><br>
+             <!-- second fieldset ends here -->
+ 
+             <!-- feedback -->
+ 
+             <label for="feedback" id="feedback" class="feedback"><h4>Register your Feedback/ Complaints</h4><br></label><br>
+             <textarea for='feedback' class='feedback' id="feedback" rows="6" cols="60" placeholder="eg: Great service/stuff/site :)"></textarea><br><br>
+ 
+             <!-- myfile dragbox -->
+ 
+             <label for="myfile" class="myfile">images of defected pieces (if any)</label>
+             <input type="file" id="myfile" name="myfile"><br><br>
+ 
+         <div class="decision">
+             
+             <label for="reset" class="reset" id="reset"></label>
+             <input type='reset' id="reset">&nbsp;&nbsp;&nbsp;
+ 
+             <label for="submit" class="submit" id="submit"></label>
+             <input type='submit' id="submit">
+         </div>
+        </div>
+         </fieldset>
+        </form>
+        <!-- <div class="circle1"></div>
+        <div class="circle2"></div> -->
+              <nav class="bottomnav">
+           <a href="https://www.instagram.com/"><img src="img/insta.png" alt="instagram" height="25px" width="25px"></a>
+           <a href="https://www.facebook.com/"><img src="img/facebook.png" height="25px" width="25px" alt="facebook"></a>
+           <a href="https://www.reddit.com/" ><img src="img/reddit.png" alt="reddit" height="25px" width="25px"></a>
+           <a href="https://www.snapchat.com/" target="_blank"><img src="img/snapchat.png" alt="snapchat" height="25px" width="25px"></a>
+           <a href="https://maps.google.com" target="_blank"><img src="img/maps.png" alt="maps" height="25px" width="25px"></a>
+         </nav>
+    </main>
+
+    <footer>
+ 
+        </footer>
+</div>
+</body>
+</html>

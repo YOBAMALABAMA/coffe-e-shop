@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" id='menu'>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="icon" href="D:\TCET\coffe-e-shop\img\coffeeshop.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       main{
+           height: 130vh;
+       } 
+       nav.bottomnav{
+           position: absolute;
+           bottom: -30%;
+       }
+       .card{
+           height: 65%;
+           width: 25%;
+           background: linear-gradient(to right bottom, rgba(250, 171, 98, 0.5), rgba(238, 129, 27, 0.116));
+           backdrop-filter: blur(1rem);
+           position: absolute;
+           top: 20%;
+           left: 8%;
+           padding: 10px;
+           display: flex;
+           align-content: center;
+           align-items: center;
+           border-radius: 20px;
+       }
+       .card:hover{
+           background: linear-gradient(to right bottom, rgba(250, 171, 98, 0.616), rgba(238, 129, 27, 0.205));
+       }
+       .card-1{
+           height:65%;
+           width: 25%;
+           background: linear-gradient(to right bottom, rgba(250, 171, 98, 0.5), rgba(238, 129, 27, 0.116));
+           backdrop-filter: blur(1rem);
+           position: absolute;
+           top: 22%;
+           left: 35%;
+           padding: 10px;
+           display: flex;
+           align-content: center;
+           align-items: center;
+           border-radius: 20px;
+       }
+       .card-1:hover{
+           background: linear-gradient(to right bottom, rgba(250, 171, 98, 0.616), rgba(238, 129, 27, 0.205));
+       }
+       .card-2{
+           height: 75%;
+           width: 100%;
+           background: linear-gradient(to right bottom, rgba(250, 171, 98, 0.5), rgba(238, 129, 27, 0.116));
+           backdrop-filter: blur(1rem);
+           position: absolute;
+           top: 0%;
+           left: 110%;
+           padding: 10px;
+           display: flex;
+           align-content: center;
+           align-items: center;
+           border-radius: 20px;
+       }
+       .card-2{
+        background: linear-gradient(to right bottom, rgba(250, 171, 98, 0.616), rgba(238, 129, 27, 0.205));
+       }
+       .order-now{
+           position:absolute;
+           display: flex;
+           width: 30%;
+           justify-content: center;
+           align-items: center;
+           align-content: center;
+       }
+       .card-body{
+           color:thistle;
+       }
+       .order-now a{
+           text-decoration: none;
+           padding: 7px 9px;
+           display: flex;
+           align-content: center;
+           align-items: center;
+           justify-content: center;
+           background-color: rgb(255, 153, 0);
+           color: wheat;
+           border-radius: 20px;
+       }
+       .order-now a:hover{
+           padding: 8px 10px;
+           background-color: rgb(182, 114, 13);
+       }
+       .card-img img{
+           border-radius: 20px;
+       }
+       .card-img img:hover{
+           opacity: 0.95;
+       }
+       .card-body span > h3{
+           color:rgb(0, 0, 0);
+       }
+    
+    </style>
+    
+</head>
+<body>
+
+<main>
+    <nav class="topnav">
+    
+        <div class="logo-title">
+            <div class="logo"><img src="img\coffeeshop.png" height="45" width="45"></div>
+            <h3>Coffe-e-Café</h3>
+        </div>
+        <div class="main-nav">
+        <div class="nav-links">
+            <a href="index.html"> Home</a>
+            <div class="dropdown">
+                <span>Shop</span>
+                <ul type='none' class="shopping-options">
+                    <a href="e-store.html">e-Store</a><br>
+                    <a href="Delivery.html">Delivery</a><br>
+                    <a href="Takeaway.html">Takeaway</a>
+                </ul>    
+            </div>  
+            <a href="About_us.html"> About Us</a>
+        </div>
+
+        <div class="user-settings" style="color: black;">
+                <a href="profile.html">Profile</a>
+                <a href="orders.html">Orders</a>
+                <a href="feedbackform.html"> Feedback</a>
+        </div>
+
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+
+        </div>
+        </div>
+
+         </nav>
+
+<section class="container">
+    <div class="card">
+         <div class="row">
+             <div class="card-img">
+               <img src="img/espresso.jpeg" alt="espresso" width="318px">
+             </div>
+             <div class="card-body">
+                 <span><h3 align='center'>Espresso</h3></span>
+               <div class="hidden">
+               <p align='center'>
+                Espresso is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling water is forced under 9–10 bars of pressure through finely-ground coffee beans. Espresso coffee can be made with a wide variety of coffee beans and roast degrees
+               </p>
+               </div>
+             </div>
+             <br>
+             <div class="order-now">
+                <a href="orders.html"><p>Order now</p></a>
+             </div>
+         </div>   
+    </div>
+
+    <div class="card-1">
+        <div class="row">
+            <div class="card-img">
+              <img src="img/latte.jpg" alt="latte" height="218px" width="318px">
+            </div>
+            <div class="card-body">
+                <span><h3 align='center'>Latte</h3></span>
+              <div class="hidden">
+              <p align='center'>
+                Heat milk in a saucepan set over medium-low heat. Whisk briskly with a wire whisk to create foam. Brew espresso and pour into 4  cups. Pour in milk, holding back the foam with a spoon. Spoon foam over the top.
+              </p>
+            </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="order-now">
+               <a href="orders.html"><p>Order now</p></a>
+            </div>
+          </div>
+
+        <div class="card-2">
+            <div class="row">
+                <div class="card-img">
+                  <img src="img/cappuccino.jpg" alt="cappuccino" height="218px" width="318px">
+                </div>
+                <div class="card-body">
+                    <span><h3 align='center'>Cappuccino</h3></span>
+                  <div class="hidden">
+                  <p align='center'>
+                    Brew a single or double espresso (as per taste or order) directly into your serving cup. Gently swirl the milk to release any large air bubbles.tap the milk jug against a counter to remove any stubborn bubbles. Pour the milk over the espresso from a low height for a smooth drink. 
+                  </p>
+                </div>
+                </div>
+                <br>
+                <div class="order-now">
+                   <a href="orders.html"><p>Order now</p></a>
+                </div>
+            </div>  
+   </div>
+</section>
+</main>
+
+<footer>
+   <nav class="bottomnav">
+        <a href="https://www.instagram.com/" target="_blank"><img src="img/insta.png" alt="instagram" height="25px" width="25px"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" height="25px" width="25px" alt="facebook"></a>
+        
+        <a href="https://www.reddit.com/" target="_blank"><img src="img/reddit.png" alt="reddit" height="25px" width="25px"></a>
+        <a href="https://www.snapchat.com/" target="_blank"><img src="img/snapchat.png" alt="snapchat" height="25px" width="25px"></a>
+        <a href="https://maps.google.com" target="_blank"><img src="img/maps.png" alt="maps" height="25px" width="25px"></a>
+      </nav>
+ </footer>
+    </div>
+</body>
+</html>
